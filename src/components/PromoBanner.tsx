@@ -38,9 +38,9 @@ const PromoBanner = () => {
         </div>
 
         <div className="flex items-center gap-3 shrink-0">
-          <div className="hidden md:flex items-center gap-1.5 text-primary-foreground text-xs">
-            <Clock size={14} />
-            <span>{timeLeft.days}d {String(timeLeft.hours).padStart(2, "0")}h {String(timeLeft.minutes).padStart(2, "0")}m {String(timeLeft.seconds).padStart(2, "0")}s</span>
+          <div className="flex items-center gap-1 text-primary-foreground text-[10px] sm:text-xs">
+            <Clock size={12} className="shrink-0 hidden sm:block" />
+            <span>{String(timeLeft.minutes).padStart(2, "0")}:{String(timeLeft.seconds).padStart(2, "0")}</span>
           </div>
 
           {expired ? (
