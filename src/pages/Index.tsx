@@ -8,11 +8,13 @@ import PortfolioSection from "@/components/PortfolioSection";
 import ConsultingSection from "@/components/ConsultingSection";
 import ContactsSection from "@/components/ContactsSection";
 import Footer from "@/components/Footer";
+import WhatsAppChat from "@/components/WhatsAppChat";
 
 const Index = () => (
   <>
     <Header />
     <PromoBanner />
+    <WhatsAppChat />
     <main>
       <HeroSection />
       <WebsitesSection />
