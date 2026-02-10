@@ -41,7 +41,7 @@ const PromoBanner = () => {
         </div>
 
         <div className="flex items-center gap-1.5 sm:gap-3 shrink-0">
-          <span className="text-[#00FF9D] sm:text-primary-foreground text-[10px] sm:text-xs font-bold sm:font-normal">
+          <span className="text-[#00FF9D] sm:text-primary-foreground text-base sm:text-xs font-bold sm:font-normal">
             {String(timeLeft.minutes).padStart(2, "0")}:{String(timeLeft.seconds).padStart(2, "0")}
           </span>
 
