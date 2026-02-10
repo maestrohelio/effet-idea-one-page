@@ -9,10 +9,10 @@ type Category = "todos" | "websites" | "campanhas" | "redes";
 const PROJECTS = [
   { id: 1, cat: "websites" as const, title: "E-commerce Moda Premium", desc: "Loja online com design exclusivo e checkout otimizado.", result: "+200% vendas em 3 meses", color: "from-purple-600 to-blue-500" },
   { id: 2, cat: "campanhas" as const, title: "Campanha Google Ads – Clínica", desc: "Estratégia de conversão para clínica dentária.", result: "CPA reduzido em 60%", color: "from-blue-500 to-cyan-400" },
-  { id: 3, cat: "redes" as const, title: "Gestão Instagram – Restaurante", desc: "Conteúdo visual e stories para restaurante gourmet.", result: "+5K seguidores em 2 meses", color: "from-pink-500 to-purple-600" },
+  { id: 3, cat: "websites" as const, title: "Site Corporativo – Consultoria Financeira", desc: "Website profissional com painel de serviços e formulário de contacto.", result: "+180% leads em 4 meses", color: "from-pink-500 to-purple-600" },
   { id: 4, cat: "websites" as const, title: "Site Institucional – Advocacia", desc: "Presença digital profissional e credível.", result: "+150% leads qualificados", color: "from-indigo-500 to-purple-600" },
   { id: 5, cat: "campanhas" as const, title: "Meta Ads – Imobiliária", desc: "Campanhas segmentadas para vendas de imóveis.", result: "ROI de 420%", color: "from-green-500 to-teal-400" },
-  { id: 6, cat: "redes" as const, title: "TikTok – Marca de Fitness", desc: "Conteúdo viral e estratégia de crescimento.", result: "+50K views/semana", color: "from-orange-500 to-red-500" },
+  { id: 6, cat: "websites" as const, title: "Landing Page – Clínica Estética", desc: "Página de alta conversão com agendamento online integrado.", result: "+300% agendamentos", color: "from-orange-500 to-red-500" },
 ];
 
 const FILTERS: { label: string; value: Category }[] = [
