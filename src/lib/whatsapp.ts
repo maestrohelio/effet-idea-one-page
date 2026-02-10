@@ -7,7 +7,7 @@ export function whatsappLink(message: string, country: "pt" | "ch" = "pt") {
 }
 
 // Promotion: 3 days, 6 hours, 30 minutes from first visit
-const PROMO_DURATION_MS = (3 * 86400 + 6 * 3600 + 30 * 60) * 1000;
+const PROMO_DURATION_MS = 15 * 1000; // TEMP: 15 seconds for testing
 const STORAGE_KEY = "ei_promo_start";
 
 export function getPromoEndDate(): Date {
