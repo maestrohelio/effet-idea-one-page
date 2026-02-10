@@ -4,7 +4,7 @@ const BAR_HEIGHTS = [35, 55, 45, 70, 60, 85, 75, 95, 80, 90];
 const LINE_POINTS = "0,80 40,70 80,65 120,50 160,55 200,40 240,35 280,20 320,25 360,10";
 
 const DashboardBackground = () => (
-  <div className="absolute inset-0 overflow-hidden opacity-[0.07] pointer-events-none">
+  <div className="absolute inset-0 overflow-hidden opacity-20 pointer-events-none">
     {/* Grid lines */}
     <svg className="absolute inset-0 w-full h-full">
       {[...Array(8)].map((_, i) => (
