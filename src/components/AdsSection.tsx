@@ -2,7 +2,6 @@ import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { MessageCircle, TrendingUp, BarChart3, Target } from "lucide-react";
 import { whatsappLink } from "@/lib/whatsapp";
-import DashboardBackground from "./DashboardBackground";
 
 const BADGES = ["Google Ads", "Meta Ads", "TikTok Ads", "LinkedIn Ads", "Remarketing", "Campanhas Locais", "Conversão Maximizada"];
 
@@ -41,8 +40,7 @@ function AnimatedCounter({ target, suffix = "" }: { target: number; suffix?: str
 }
 
 const AdsSection = () => (
-  <section id="anuncios" className="relative py-20 md:py-28 overflow-hidden">
-    <DashboardBackground />
+  <section id="anuncios" className="py-20 md:py-28">
     <motion.div
       initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
