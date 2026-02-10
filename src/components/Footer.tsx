@@ -1,4 +1,4 @@
-import { isPromoActive, PROMO_END_DATE } from "@/lib/whatsapp";
+import { isPromoActive, getPromoEndDate } from "@/lib/whatsapp";
 import logoDark from "@/assets/logo-horizontal-dark.png";
 
 const NAV = [
@@ -20,7 +20,7 @@ const Footer = () => (
           {isPromoActive() && (
             <p className="text-muted-foreground text-xs">
               ✨ Promoção de sites a 200€ válida até{" "}
-              {PROMO_END_DATE.toLocaleDateString("pt-PT", { day: "numeric", month: "long", year: "numeric" })}.
+              {getPromoEndDate().toLocaleDateString("pt-PT", { day: "numeric", month: "long", year: "numeric" })}.
             </p>
           )}
         </div>

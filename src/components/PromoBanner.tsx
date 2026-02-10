@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Rocket, Clock } from "lucide-react";
-import { whatsappLink, PROMO_END_DATE, isPromoActive } from "@/lib/whatsapp";
+import { whatsappLink, getPromoEndDate, isPromoActive } from "@/lib/whatsapp";
 
 const PromoBanner = () => {
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
@@ -8,7 +8,7 @@ const PromoBanner = () => {
   useEffect(() => {
     const tick = () => {
       const now = new Date();
-      const diff = PROMO_END_DATE.getTime() - now.getTime();
+      const diff = getPromoEndDate().getTime() - now.getTime();
       if (diff <= 0) return;
       setTimeLeft({
         days: Math.floor(diff / 86400000),
