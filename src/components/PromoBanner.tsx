@@ -35,12 +35,13 @@ const PromoBanner = () => {
             <strong>PROMOÇÃO RELÂMPAGO:</strong> Sites Profissionais a partir de <strong>200€</strong>!
           </span>
           <span className="sm:hidden font-bold leading-tight">
-            PROMOÇÃO RELÂMPAGO: Sites a partir de 200€!
+            <span className="block">PROMOÇÃO RELÂMPAGO:</span>
+            <span className="block">Sites a partir de 200€!</span>
           </span>
         </div>
 
         <div className="flex items-center gap-1.5 sm:gap-3 shrink-0">
-          <span className="text-primary-foreground text-[10px] sm:text-xs font-mono">
+          <span className="text-[#00FF9D] sm:text-primary-foreground text-[10px] sm:text-xs font-bold sm:font-normal">
             {String(timeLeft.minutes).padStart(2, "0")}:{String(timeLeft.seconds).padStart(2, "0")}
           </span>
 
