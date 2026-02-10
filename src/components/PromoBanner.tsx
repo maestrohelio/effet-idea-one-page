@@ -27,14 +27,17 @@ const PromoBanner = () => {
   }, []);
 
   return (
-    <div className="fixed top-16 left-0 right-0 z-40 gradient-bg-animated py-2.5 px-4">
-      <div className="container mx-auto flex items-center justify-between gap-4">
-        <div className="flex items-center gap-2 text-primary-foreground text-xs sm:text-sm font-medium">
-          <Rocket size={16} className="shrink-0" />
+    <div className="fixed top-16 left-0 right-0 z-40 gradient-bg-animated py-2 px-2 sm:px-4">
+      <div className="container mx-auto flex items-center justify-between gap-2">
+        <div className="flex items-center gap-1.5 sm:gap-2 text-primary-foreground text-[10px] sm:text-sm font-medium min-w-0">
+          <Rocket size={14} className="shrink-0" />
           <span className="hidden sm:inline">
             <strong>PROMOÇÃO RELÂMPAGO:</strong> Sites Profissionais a partir de <strong>200€</strong>!
           </span>
-          <span className="sm:hidden font-bold">Sites a 200€ – Tempo Limitado!</span>
+          <span className="sm:hidden font-bold leading-tight">
+            <span className="block">PROMOÇÃO RELÂMPAGO:</span>
+            <span className="block">Sites a partir de 200€!</span>
+          </span>
         </div>
 
         <div className="flex items-center gap-3 shrink-0">
