@@ -6,6 +6,17 @@ export function whatsappLink(message: string, country: "pt" | "ch" = "pt") {
   return `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
 }
 
-// Promotion config
-export const PROMO_END_DATE = new Date("2026-03-31T23:59:59");
-export const isPromoActive = () => new Date() < PROMO_END_DATE;
+// Promotion: 3 days, 6 hours, 30 minutes from first visit
+const PROMO_DURATION_MS = (3 * 86400 + 6 * 3600 + 30 * 60) * 1000;
+const STORAGE_KEY = "ei_promo_start";
+
+export function getPromoEndDate(): Date {
+  let start = localStorage.getItem(STORAGE_KEY);
+  if (!start) {
+    start = new Date().toISOString();
+    localStorage.setItem(STORAGE_KEY, start);
+  }
+  return new Date(new Date(start).getTime() + PROMO_DURATION_MS);
+}
+
+export const isPromoActive = () => new Date() < getPromoEndDate();
