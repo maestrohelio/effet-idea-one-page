@@ -7,5 +7,5 @@ export function whatsappLink(message: string, country: "pt" | "ch" = "pt") {
 }
 
 // Promotion config
-export const PROMO_END_DATE = new Date("2025-03-31T23:59:59");
+export const PROMO_END_DATE = new Date("2026-03-31T23:59:59");
 export const isPromoActive = () => new Date() < PROMO_END_DATE;
