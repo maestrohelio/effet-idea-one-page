@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { MessageCircle, TrendingUp, BarChart3, Target } from "lucide-react";
 import { whatsappLink } from "@/lib/whatsapp";
 import SectionWrapper from "./SectionWrapper";
+import DashboardBackground from "./DashboardBackground";
 
 const BADGES = ["Google Ads", "Meta Ads", "TikTok Ads", "LinkedIn Ads", "Remarketing", "Campanhas Locais", "Conversão Maximizada"];
 
@@ -40,7 +41,8 @@ function AnimatedCounter({ target, suffix = "" }: { target: number; suffix?: str
 }
 
 const AdsSection = () => (
-  <SectionWrapper id="anuncios">
+  <SectionWrapper id="anuncios" className="relative">
+    <DashboardBackground />
     <div className="grid lg:grid-cols-2 gap-12 items-center">
       <div>
         <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
