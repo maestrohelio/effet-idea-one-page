@@ -37,7 +37,7 @@ const HeroSection = () => {
       </motion.div>
 
       {/* Gradient overlay */}
-      <div className="absolute inset-0 z-[1] bg-gradient-to-b from-background/30 via-background/40 to-background/90" />
+      <div className="absolute inset-0 z-[1] bg-gradient-to-b from-background/50 via-background/60 to-background/95" />
 
       <Particles />
 
