@@ -32,7 +32,7 @@ const HeroSection = () => {
           alt=""
           loading="eager"
           decoding="async"
-          className="w-full h-full object-cover object-center brightness-150"
+          className="w-full h-full object-cover object-center"
         />
       </motion.div>
 
