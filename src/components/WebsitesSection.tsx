@@ -12,18 +12,18 @@ const FEATURES = [
 
 const WebsitesSection = () => (
   <section id="websites" className="relative py-20 md:py-28 overflow-hidden">
-    {/* Background image */}
-    <div className="absolute inset-0 z-0">
+    {/* Background image - hidden on mobile */}
+    <div className="absolute inset-0 z-0 hidden md:block">
       <img
         src={websitesBg}
         alt=""
         loading="lazy"
         decoding="async"
-        className="w-full h-full object-cover object-center md:object-center object-[50%_20%]"
+        className="w-full h-full object-cover object-center"
       />
     </div>
-    {/* Overlay 60% */}
-    <div className="absolute inset-0 z-[1] bg-background/60" />
+    {/* Overlay 60% - hidden on mobile */}
+    <div className="absolute inset-0 z-[1] bg-background/60 hidden md:block" />
 
     <motion.div
       initial={{ opacity: 0, y: 40 }}
