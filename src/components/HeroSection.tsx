@@ -4,6 +4,7 @@ import { MessageCircle, ArrowDown } from "lucide-react";
 import { whatsappLink } from "@/lib/whatsapp";
 import Particles from "./Particles";
 import heroBg from "@/assets/hero-bg.jpg";
+import heroBgMobile from "@/assets/hero-bg-mobile.jpg";
 
 const HeroSection = () => {
   const sectionRef = useRef<HTMLElement>(null);
@@ -27,12 +28,21 @@ const HeroSection = () => {
         style={{ y: bgY, scale: bgScale, opacity: bgOpacity }}
         className="absolute inset-0 z-0"
       >
+        {/* Desktop/Tablet image */}
         <img
           src={heroBg}
           alt=""
           loading="eager"
           decoding="async"
-          className="w-full h-full md:object-cover md:object-center object-contain object-top"
+          className="hidden md:block w-full h-full object-cover object-center"
+        />
+        {/* Mobile image */}
+        <img
+          src={heroBgMobile}
+          alt=""
+          loading="eager"
+          decoding="async"
+          className="block md:hidden w-full h-full object-cover object-center"
         />
       </motion.div>
 
