@@ -14,7 +14,7 @@ const HeroSection = () => {
 
   const bgY = useTransform(scrollYProgress, [0, 1], ["0%", "30%"]);
   const bgScale = useTransform(scrollYProgress, [0, 1], [1, 1.15]);
-  const bgOpacity = useTransform(scrollYProgress, [0, 0.8], [0.6, 0.15]);
+  const bgOpacity = useTransform(scrollYProgress, [0, 0.8], [0.85, 0.3]);
 
   return (
     <section
@@ -32,12 +32,12 @@ const HeroSection = () => {
           alt=""
           loading="eager"
           decoding="async"
-          className="w-full h-full object-cover object-center"
+          className="w-full h-full object-cover object-center brightness-150"
         />
       </motion.div>
 
       {/* Gradient overlay */}
-      <div className="absolute inset-0 z-[1] bg-gradient-to-b from-background/40 via-background/70 to-background" />
+      <div className="absolute inset-0 z-[1] bg-gradient-to-b from-background/20 via-background/50 to-background" />
 
       <Particles />
 
