@@ -1,13 +1,45 @@
-import { motion } from "framer-motion";
+import { useRef } from "react";
+import { motion, useScroll, useTransform } from "framer-motion";
 import { MessageCircle, ArrowDown } from "lucide-react";
 import { whatsappLink } from "@/lib/whatsapp";
 import Particles from "./Particles";
+import heroBg from "@/assets/hero-bg.jpg";
 
 const HeroSection = () => {
+  const sectionRef = useRef<HTMLElement>(null);
+  const { scrollYProgress } = useScroll({
+    target: sectionRef,
+    offset: ["start start", "end start"],
+  });
+
+  const bgY = useTransform(scrollYProgress, [0, 1], ["0%", "30%"]);
+  const bgScale = useTransform(scrollYProgress, [0, 1], [1, 1.15]);
+  const bgOpacity = useTransform(scrollYProgress, [0, 0.8], [0.35, 0.1]);
+
   return (
-    <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-28">
+    <section
+      ref={sectionRef}
+      id="inicio"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden pt-28"
+    >
+      {/* Parallax background image */}
+      <motion.div
+        style={{ y: bgY, scale: bgScale, opacity: bgOpacity }}
+        className="absolute inset-0 z-0"
+      >
+        <img
+          src={heroBg}
+          alt=""
+          loading="eager"
+          decoding="async"
+          className="w-full h-full object-cover object-center"
+        />
+      </motion.div>
+
+      {/* Gradient overlay */}
+      <div className="absolute inset-0 z-[1] bg-gradient-to-b from-background/70 via-background/85 to-background" />
+
       <Particles />
-      <div className="absolute inset-0 bg-gradient-to-b from-background via-background/90 to-background pointer-events-none" />
 
       <div className="container mx-auto px-4 relative z-10 text-center max-w-4xl">
         <motion.h1
