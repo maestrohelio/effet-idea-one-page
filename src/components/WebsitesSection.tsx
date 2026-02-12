@@ -19,7 +19,7 @@ const WebsitesSection = () => (
         alt=""
         loading="lazy"
         decoding="async"
-        className="w-full h-full object-cover object-center"
+        className="w-full h-full object-cover object-center md:object-center object-[50%_20%]"
       />
     </div>
     {/* Overlay 60% */}
