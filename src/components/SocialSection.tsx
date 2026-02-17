@@ -1,6 +1,7 @@
 import { CalendarDays, MessageSquare, Palette, BarChart, MessageCircle } from "lucide-react";
 import { whatsappLink } from "@/lib/whatsapp";
 import SectionWrapper from "./SectionWrapper";
+import socialBg from "@/assets/social-bg.jpg";
 
 const SERVICES = [
   { icon: CalendarDays, title: "Planeamento de Conteúdo Mensal", desc: "Estratégia editorial alinhada à sua marca." },
@@ -10,39 +11,46 @@ const SERVICES = [
 ];
 
 const SocialSection = () => (
-  <SectionWrapper id="redes-sociais">
-    <div className="text-center max-w-3xl mx-auto mb-12">
-      <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
-        Redes Sociais que{" "}
-        <span className="gradient-text">Conectam e Engajam</span>
-      </h2>
-      <p className="text-muted-foreground text-base md:text-lg leading-relaxed">
-        Construímos e gerimos sua presença social com conteúdo relevante, consistente e alinhado à sua marca – para criar comunidade e fidelizar clientes.
-      </p>
+  <SectionWrapper id="redes-sociais" className="relative overflow-hidden">
+    {/* Background image */}
+    <div className="absolute inset-0 z-0">
+      <img src={socialBg} alt="" className="w-full h-full object-cover" />
+      <div className="absolute inset-0 bg-background/80" />
     </div>
+    <div className="relative z-10">
+      <div className="text-center max-w-3xl mx-auto mb-12">
+        <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
+          Redes Sociais que{" "}
+          <span className="gradient-text">Conectam e Engajam</span>
+        </h2>
+        <p className="text-muted-foreground text-base md:text-lg leading-relaxed">
+          Construímos e gerimos sua presença social com conteúdo relevante, consistente e alinhado à sua marca – para criar comunidade e fidelizar clientes.
+        </p>
+      </div>
 
-    <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-      {SERVICES.map((s) => (
-        <div key={s.title} className="glow-card p-6 text-center">
-          <div className="w-12 h-12 mx-auto mb-4 rounded-lg gradient-bg flex items-center justify-center">
-            <s.icon size={24} className="text-primary-foreground" />
+      <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+        {SERVICES.map((s) => (
+          <div key={s.title} className="glow-card p-6 text-center">
+            <div className="w-12 h-12 mx-auto mb-4 rounded-lg gradient-bg flex items-center justify-center">
+              <s.icon size={24} className="text-primary-foreground" />
+            </div>
+            <h3 className="font-heading font-bold text-foreground mb-2 text-sm">{s.title}</h3>
+            <p className="text-muted-foreground text-sm">{s.desc}</p>
           </div>
-          <h3 className="font-heading font-bold text-foreground mb-2 text-sm">{s.title}</h3>
-          <p className="text-muted-foreground text-sm">{s.desc}</p>
-        </div>
-      ))}
-    </div>
+        ))}
+      </div>
 
-    <div className="text-center">
-      <a
-        href={whatsappLink("Olá! Quero as minhas redes sociais profissionais!")}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="btn-neon inline-flex items-center gap-2"
-      >
-        <MessageCircle size={18} />
-        Quero Minhas Redes Profissionais
-      </a>
+      <div className="text-center">
+        <a
+          href={whatsappLink("Olá! Quero as minhas redes sociais profissionais!")}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn-neon inline-flex items-center gap-2"
+        >
+          <MessageCircle size={18} />
+          Quero Minhas Redes Profissionais
+        </a>
+      </div>
     </div>
   </SectionWrapper>
 );
