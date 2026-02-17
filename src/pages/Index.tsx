@@ -1,5 +1,5 @@
 import Header from "@/components/Header";
-import PromoBanner from "@/components/PromoBanner";
+
 import HeroSection from "@/components/HeroSection";
 import WebsitesSection from "@/components/WebsitesSection";
 import AdsSection from "@/components/AdsSection";
@@ -13,7 +13,7 @@ import WhatsAppChat from "@/components/WhatsAppChat";
 const Index = () => (
   <>
     <Header />
-    <PromoBanner />
+    
     <WhatsAppChat />
     <main>
       <HeroSection />
