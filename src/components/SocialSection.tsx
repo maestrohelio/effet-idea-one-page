@@ -15,7 +15,7 @@ const SocialSection = () => (
     {/* Background image */}
     <div className="absolute inset-0 z-0">
       <img src={socialBg} alt="" className="w-full h-full object-cover" />
-      <div className="absolute inset-0 bg-background/80" />
+      <div className="absolute inset-0 bg-background/60" />
     </div>
     <div className="relative z-10">
       <div className="text-center max-w-3xl mx-auto mb-12">
