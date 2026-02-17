@@ -19,7 +19,7 @@ const FILTERS: { label: string; value: Category }[] = [
   { label: "Todos", value: "todos" },
   { label: "Websites", value: "websites" },
   { label: "Campanhas", value: "campanhas" },
-  { label: "Redes Sociais", value: "redes" },
+  
 ];
 
 const PortfolioSection = () => {
