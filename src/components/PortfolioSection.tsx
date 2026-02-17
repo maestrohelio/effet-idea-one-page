@@ -82,7 +82,8 @@ const PortfolioSection = () => {
                   <img
                     src={p.image}
                     alt={p.title}
-                    className="w-full absolute top-0 left-0 object-cover object-top transition-transform duration-[12s] ease-in-out group-hover:-translate-y-[calc(100%-12rem)]"
+                    className="w-full absolute top-0 left-0 group-hover:-translate-y-[calc(100%-12rem)]"
+                    style={{ transition: "transform 12s ease-in-out" }}
                   />
                 </div>
               ) : (
