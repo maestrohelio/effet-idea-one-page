@@ -15,10 +15,11 @@ interface Project {
   result: string;
   color: string;
   image?: string;
+  link?: string;
 }
 
 const PROJECTS: Project[] = [
-  { id: 1, cat: "websites", title: "Tacofrei", desc: "Loja online com design exclusivo.", result: "+200% vendas em 3 meses", color: "from-purple-600 to-blue-500", image: portfolioTacofrei },
+  { id: 1, cat: "websites", title: "Tacofrei", desc: "Loja online com design exclusivo.", result: "+200% vendas em 3 meses", color: "from-purple-600 to-blue-500", image: portfolioTacofrei, link: "https://tacofrei.com/" },
   { id: 2, cat: "campanhas", title: "Campanha Google Ads – Clínica", desc: "Estratégia de conversão para clínica dentária.", result: "CPA reduzido em 60%", color: "from-blue-500 to-cyan-400" },
   { id: 3, cat: "websites", title: "Site Corporativo – Consultoria Financeira", desc: "Website profissional com painel de serviços e formulário de contacto.", result: "+180% leads em 4 meses", color: "from-pink-500 to-purple-600" },
   { id: 4, cat: "websites", title: "Site Institucional – Advocacia", desc: "Presença digital profissional e credível.", result: "+150% leads qualificados", color: "from-indigo-500 to-purple-600" },
@@ -94,9 +95,22 @@ const PortfolioSection = () => {
               <div className="p-6">
                 <h3 className="font-heading font-bold text-foreground mb-2">{p.title}</h3>
                 <p className="text-muted-foreground text-sm mb-3">{p.desc}</p>
-                <span className="inline-flex items-center text-xs font-bold text-accent bg-accent/10 px-3 py-1 rounded-full">
-                  {p.result}
-                </span>
+                <div className="flex items-center justify-between">
+                  <span className="inline-flex items-center text-xs font-bold text-accent bg-accent/10 px-3 py-1 rounded-full">
+                    {p.result}
+                  </span>
+                  {p.link && (
+                    <a
+                      href={p.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 text-xs font-semibold text-primary hover:text-primary/80 transition-colors"
+                    >
+                      <ExternalLink size={14} />
+                      Ver Site
+                    </a>
+                  )}
+                </div>
               </div>
             </motion.div>
           ))}
