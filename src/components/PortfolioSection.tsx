@@ -3,16 +3,27 @@ import { MessageCircle, ExternalLink } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { whatsappLink } from "@/lib/whatsapp";
 import SectionWrapper from "./SectionWrapper";
+import portfolioTacofrei from "@/assets/portfolio-tacofrei.png";
 
 type Category = "todos" | "websites" | "campanhas" | "redes";
 
-const PROJECTS = [
-  { id: 1, cat: "websites" as const, title: "E-commerce Moda Premium", desc: "Loja online com design exclusivo e checkout otimizado.", result: "+200% vendas em 3 meses", color: "from-purple-600 to-blue-500" },
-  { id: 2, cat: "campanhas" as const, title: "Campanha Google Ads – Clínica", desc: "Estratégia de conversão para clínica dentária.", result: "CPA reduzido em 60%", color: "from-blue-500 to-cyan-400" },
-  { id: 3, cat: "websites" as const, title: "Site Corporativo – Consultoria Financeira", desc: "Website profissional com painel de serviços e formulário de contacto.", result: "+180% leads em 4 meses", color: "from-pink-500 to-purple-600" },
-  { id: 4, cat: "websites" as const, title: "Site Institucional – Advocacia", desc: "Presença digital profissional e credível.", result: "+150% leads qualificados", color: "from-indigo-500 to-purple-600" },
-  { id: 5, cat: "campanhas" as const, title: "Meta Ads – Imobiliária", desc: "Campanhas segmentadas para vendas de imóveis.", result: "ROI de 420%", color: "from-green-500 to-teal-400" },
-  { id: 6, cat: "websites" as const, title: "Landing Page – Clínica Estética", desc: "Página de alta conversão com agendamento online integrado.", result: "+300% agendamentos", color: "from-orange-500 to-red-500" },
+interface Project {
+  id: number;
+  cat: "websites" | "campanhas" | "redes";
+  title: string;
+  desc: string;
+  result: string;
+  color: string;
+  image?: string;
+}
+
+const PROJECTS: Project[] = [
+  { id: 1, cat: "websites", title: "E-commerce Moda Premium", desc: "Loja online com design exclusivo e checkout otimizado.", result: "+200% vendas em 3 meses", color: "from-purple-600 to-blue-500", image: portfolioTacofrei },
+  { id: 2, cat: "campanhas", title: "Campanha Google Ads – Clínica", desc: "Estratégia de conversão para clínica dentária.", result: "CPA reduzido em 60%", color: "from-blue-500 to-cyan-400" },
+  { id: 3, cat: "websites", title: "Site Corporativo – Consultoria Financeira", desc: "Website profissional com painel de serviços e formulário de contacto.", result: "+180% leads em 4 meses", color: "from-pink-500 to-purple-600" },
+  { id: 4, cat: "websites", title: "Site Institucional – Advocacia", desc: "Presença digital profissional e credível.", result: "+150% leads qualificados", color: "from-indigo-500 to-purple-600" },
+  { id: 5, cat: "campanhas", title: "Meta Ads – Imobiliária", desc: "Campanhas segmentadas para vendas de imóveis.", result: "ROI de 420%", color: "from-green-500 to-teal-400" },
+  { id: 6, cat: "websites", title: "Landing Page – Clínica Estética", desc: "Página de alta conversão com agendamento online integrado.", result: "+300% agendamentos", color: "from-orange-500 to-red-500" },
 ];
 
 const FILTERS: { label: string; value: Category }[] = [
@@ -66,9 +77,19 @@ const PortfolioSection = () => {
               transition={{ duration: 0.3 }}
               className="glow-card overflow-hidden group"
             >
-              <div className={`h-48 bg-gradient-to-br ${p.color} flex items-center justify-center`}>
-                <ExternalLink size={32} className="text-white/50 group-hover:text-white/80 transition-colors" />
-              </div>
+              {p.image ? (
+                <div className="h-48 overflow-hidden relative">
+                  <img
+                    src={p.image}
+                    alt={p.title}
+                    className="w-full absolute top-0 left-0 object-cover object-top transition-transform duration-[4s] ease-in-out group-hover:-translate-y-[calc(100%-12rem)]"
+                  />
+                </div>
+              ) : (
+                <div className={`h-48 bg-gradient-to-br ${p.color} flex items-center justify-center`}>
+                  <ExternalLink size={32} className="text-white/50 group-hover:text-white/80 transition-colors" />
+                </div>
+              )}
               <div className="p-6">
                 <h3 className="font-heading font-bold text-foreground mb-2">{p.title}</h3>
                 <p className="text-muted-foreground text-sm mb-3">{p.desc}</p>
