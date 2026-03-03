@@ -53,6 +53,15 @@ const PROJECTS: Project[] = [
   { id: 21, cat: "websites", title: "Tons de Pele", desc: "Vestuário Íntimo Feminino.", result: "+380% vendas online", color: "from-rose-700 to-red-800", image: portfolioTonsDePele, link: "https://tonsdepele.com/" },
   { id: 22, cat: "websites", title: "Ozone 7 Real Estate", desc: "Imobiliária.", result: "+350% leads qualificados", color: "from-amber-500 to-yellow-600", image: portfolioOzone7, link: "https://ozone7realestate.com/" },
   { id: 23, cat: "websites", title: "Savana Construções", desc: "Remodelações e Construções.", result: "+280% pedidos de orçamento", color: "from-red-600 to-orange-600", image: portfolioSavana, link: "https://savanaconstrucoes.com/" },
+  { id: 24, cat: "websites", title: "Nome do Projeto 4", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-cyan-500 to-blue-500" },
+  { id: 25, cat: "websites", title: "Nome do Projeto 5", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-indigo-500 to-violet-500" },
+  { id: 26, cat: "websites", title: "Nome do Projeto 6", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-teal-500 to-cyan-500" },
+  { id: 27, cat: "websites", title: "Nome do Projeto 7", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-pink-500 to-rose-500" },
+  { id: 28, cat: "websites", title: "Nome do Projeto 8", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-emerald-500 to-green-500" },
+  { id: 29, cat: "websites", title: "Nome do Projeto 9", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-amber-500 to-orange-500" },
+  { id: 30, cat: "websites", title: "Nome do Projeto 10", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-blue-500 to-indigo-500" },
+  { id: 31, cat: "websites", title: "Nome do Projeto 11", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-violet-500 to-purple-500" },
+  { id: 32, cat: "websites", title: "Nome do Projeto 12", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-orange-500 to-red-500" },
 ];
 
 const PortfolioSection = () => {
