@@ -69,6 +69,18 @@ const PROJECTS: Project[] = [
   { id: 30, cat: "websites", title: "Liebe Zum Haus", desc: "Empresa de Limpeza.", result: "+300% contactos online", color: "from-blue-500 to-indigo-500", image: portfolioLiebeZumHaus, link: "https://liebezumhaus.com/" },
   { id: 31, cat: "websites", title: "Imperio Kiss", desc: "Clínica Odontológica.", result: "+320% consultas agendadas", color: "from-violet-500 to-purple-500", image: portfolioImperioKiss, link: "https://imperiokiss.com/" },
   { id: 32, cat: "websites", title: "Daylin Cabrera", desc: "Cabeleireira.", result: "+280% agendamentos online", color: "from-orange-500 to-red-500", image: portfolioDaylinCabrera, link: "https://daylincabrera.com/" },
+  { id: 33, cat: "websites", title: "Nome do Projeto 13", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-cyan-500 to-blue-500" },
+  { id: 34, cat: "websites", title: "Nome do Projeto 14", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-rose-500 to-pink-500" },
+  { id: 35, cat: "websites", title: "Nome do Projeto 15", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-emerald-500 to-teal-500" },
+  { id: 36, cat: "websites", title: "Nome do Projeto 16", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-purple-500 to-indigo-500" },
+  { id: 37, cat: "websites", title: "Nome do Projeto 17", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-amber-500 to-yellow-500" },
+  { id: 38, cat: "websites", title: "Nome do Projeto 18", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-red-500 to-orange-500" },
+  { id: 39, cat: "websites", title: "Nome do Projeto 19", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-sky-500 to-cyan-500" },
+  { id: 40, cat: "websites", title: "Nome do Projeto 20", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-fuchsia-500 to-pink-500" },
+  { id: 41, cat: "websites", title: "Nome do Projeto 21", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-lime-500 to-green-500" },
+  { id: 42, cat: "websites", title: "Nome do Projeto 22", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-violet-500 to-blue-500" },
+  { id: 43, cat: "websites", title: "Nome do Projeto 23", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-teal-500 to-emerald-500" },
+  { id: 44, cat: "websites", title: "Nome do Projeto 24", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-orange-500 to-amber-500" },
 ];
 
 const PortfolioSection = () => {
