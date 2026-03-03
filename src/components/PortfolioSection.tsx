@@ -32,6 +32,9 @@ import portfolioDaylinCabrera from "@/assets/portfolio-daylincabrera.png";
 import portfolioPaulaDuarte from "@/assets/portfolio-pauladuarteadvogados.png";
 import portfolioMarisolTravel from "@/assets/portfolio-marisoltravel.png";
 import portfolioSouzaCar from "@/assets/portfolio-oficinasouzacar.png";
+import portfolioFemmeSkin from "@/assets/portfolio-femmeskin.png";
+import portfolioJoaoSantos from "@/assets/portfolio-joaosantosimobiliaria.png";
+import portfolioIndianPalace from "@/assets/portfolio-indianpalacetandoori.png";
 
 interface Project {
   id: number;
@@ -75,9 +78,9 @@ const PROJECTS: Project[] = [
   { id: 33, cat: "websites", title: "Paula Duarte Advogados", desc: "Advogacia.", result: "+300% consultas agendadas", color: "from-cyan-500 to-blue-500", image: portfolioPaulaDuarte, link: "https://pauladuarteadvogados.com/" },
   { id: 34, cat: "websites", title: "Marisol Travel", desc: "Viagens e Turismo.", result: "+350% reservas online", color: "from-rose-500 to-pink-500", image: portfolioMarisolTravel, link: "https://marisoltravel.com/" },
   { id: 35, cat: "websites", title: "Oficina Souza Car", desc: "Oficina Mecânica.", result: "+280% agendamentos online", color: "from-emerald-500 to-teal-500", image: portfolioSouzaCar, link: "https://oficinasouzacar.com/" },
-  { id: 36, cat: "websites", title: "Nome do Projeto 16", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-purple-500 to-indigo-500" },
-  { id: 37, cat: "websites", title: "Nome do Projeto 17", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-amber-500 to-yellow-500" },
-  { id: 38, cat: "websites", title: "Nome do Projeto 18", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-red-500 to-orange-500" },
+  { id: 36, cat: "websites", title: "Femme Skin", desc: "Estética e Massagens.", result: "+320% agendamentos online", color: "from-purple-500 to-indigo-500", image: portfolioFemmeSkin, link: "https://femme.skin/" },
+  { id: 37, cat: "websites", title: "João Santos Imobiliária", desc: "Imobiliária.", result: "+350% leads qualificados", color: "from-amber-500 to-yellow-500", image: portfolioJoaoSantos, link: "https://joaosantosimobiliaria.com/" },
+  { id: 38, cat: "websites", title: "Indian Palace Tandoori", desc: "Restaurante Indiano.", result: "+290% reservas online", color: "from-red-500 to-orange-500", image: portfolioIndianPalace, link: "https://indianpalacetandoori.com/" },
   { id: 39, cat: "websites", title: "Nome do Projeto 19", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-sky-500 to-cyan-500" },
   { id: 40, cat: "websites", title: "Nome do Projeto 20", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-fuchsia-500 to-pink-500" },
   { id: 41, cat: "websites", title: "Nome do Projeto 21", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-lime-500 to-green-500" },
