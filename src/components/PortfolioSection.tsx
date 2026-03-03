@@ -20,7 +20,9 @@ import portfolioElliHair from "@/assets/portfolio-ellihair.png";
 import portfolioTonsDePele from "@/assets/portfolio-tonsdepele.png";
 import portfolioOzone7 from "@/assets/portfolio-ozone7.png";
 import portfolioSavana from "@/assets/portfolio-savanaconstrucoes.png";
-
+import portfolioPetalasLisas from "@/assets/portfolio-petalaslisas.png";
+import portfolioGlamourFestivo from "@/assets/portfolio-glamourfestivo.png";
+import portfolioWilhelmImport from "@/assets/portfolio-wilhelmimport.png";
 
 
 interface Project {
@@ -53,9 +55,9 @@ const PROJECTS: Project[] = [
   { id: 21, cat: "websites", title: "Tons de Pele", desc: "Vestuário Íntimo Feminino.", result: "+380% vendas online", color: "from-rose-700 to-red-800", image: portfolioTonsDePele, link: "https://tonsdepele.com/" },
   { id: 22, cat: "websites", title: "Ozone 7 Real Estate", desc: "Imobiliária.", result: "+350% leads qualificados", color: "from-amber-500 to-yellow-600", image: portfolioOzone7, link: "https://ozone7realestate.com/" },
   { id: 23, cat: "websites", title: "Savana Construções", desc: "Remodelações e Construções.", result: "+280% pedidos de orçamento", color: "from-red-600 to-orange-600", image: portfolioSavana, link: "https://savanaconstrucoes.com/" },
-  { id: 24, cat: "websites", title: "Nome do Projeto 4", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-cyan-500 to-blue-500" },
-  { id: 25, cat: "websites", title: "Nome do Projeto 5", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-indigo-500 to-violet-500" },
-  { id: 26, cat: "websites", title: "Nome do Projeto 6", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-teal-500 to-cyan-500" },
+  { id: 24, cat: "websites", title: "Pétalas Lisas", desc: "Empresa de Limpeza.", result: "+300% contactos online", color: "from-cyan-500 to-blue-500", image: portfolioPetalasLisas, link: "https://petalaslisas.com/" },
+  { id: 25, cat: "websites", title: "Glamour Festivo", desc: "Roupas de Casamento.", result: "+350% vendas online", color: "from-indigo-500 to-violet-500", image: portfolioGlamourFestivo, link: "https://glamourfestivo.com/" },
+  { id: 26, cat: "websites", title: "Wilhelm Import", desc: "Importação e Exportação.", result: "+280% leads qualificados", color: "from-teal-500 to-cyan-500", image: portfolioWilhelmImport, link: "https://wilhelmimport.com/" },
   { id: 27, cat: "websites", title: "Nome do Projeto 7", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-pink-500 to-rose-500" },
   { id: 28, cat: "websites", title: "Nome do Projeto 8", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-emerald-500 to-green-500" },
   { id: 29, cat: "websites", title: "Nome do Projeto 9", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-amber-500 to-orange-500" },
