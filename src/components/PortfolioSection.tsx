@@ -17,6 +17,7 @@ import portfolioAfricanoa from "@/assets/portfolio-africanoa.png";
 import portfolioWsObras from "@/assets/portfolio-wsobras.png";
 import portfolioJasaServicos from "@/assets/portfolio-jasaservicos.png";
 import portfolioMyPortailTech from "@/assets/portfolio-myportailtech.png";
+import portfolioElliHair from "@/assets/portfolio-ellihair.png";
 
 type Category = "todos" | "websites" | "campanhas" | "redes";
 
@@ -46,6 +47,7 @@ const PROJECTS: Project[] = [
   { id: 17, cat: "websites", title: "WS Obras", desc: "Obras e Remodelações.", result: "+240% pedidos de orçamento", color: "from-red-500 to-rose-600", image: portfolioWsObras, link: "https://ws-obras.com/" },
   { id: 18, cat: "websites", title: "Jasa Serviços", desc: "Mudanças em Geral.", result: "+200% contactos online", color: "from-red-600 to-gray-700", image: portfolioJasaServicos, link: "https://jasaservicos.effectidea.com/" },
   { id: 19, cat: "websites", title: "My Portail Tech", desc: "Automações de Portões.", result: "+270% pedidos online", color: "from-orange-500 to-yellow-500", image: portfolioMyPortailTech, link: "https://myportailtech.com/" },
+  { id: 20, cat: "websites", title: "Elli Hair", desc: "Produtos para Cabelos Especiais.", result: "+340% vendas online", color: "from-yellow-700 to-amber-800", image: portfolioElliHair, link: "https://lp.ellihair.com/" },
   { id: 2, cat: "campanhas", title: "Campanha Google Ads – Clínica", desc: "Estratégia de conversão para clínica dentária.", result: "CPA reduzido em 60%", color: "from-blue-500 to-cyan-400" },
   { id: 3, cat: "websites", title: "Site Corporativo – Consultoria Financeira", desc: "Website profissional com painel de serviços e formulário de contacto.", result: "+180% leads em 4 meses", color: "from-pink-500 to-purple-600" },
   { id: 4, cat: "websites", title: "Site Institucional – Advocacia", desc: "Presença digital profissional e credível.", result: "+150% leads qualificados", color: "from-indigo-500 to-purple-600" },
