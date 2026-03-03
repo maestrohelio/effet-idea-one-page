@@ -26,6 +26,9 @@ import portfolioWilhelmImport from "@/assets/portfolio-wilhelmimport.png";
 import portfolioNaturadente from "@/assets/portfolio-naturadente.png";
 import portfolioBoutiquePurple from "@/assets/portfolio-boutiquepurplefashion.png";
 import portfolioPerfumaria from "@/assets/portfolio-perfumariacosmetica.png";
+import portfolioLiebeZumHaus from "@/assets/portfolio-liebezumhaus.png";
+import portfolioImperioKiss from "@/assets/portfolio-imperiokiss.png";
+import portfolioDaylinCabrera from "@/assets/portfolio-daylincabrera.png";
 
 interface Project {
   id: number;
@@ -63,9 +66,9 @@ const PROJECTS: Project[] = [
   { id: 27, cat: "websites", title: "Naturadente", desc: "Odontologia.", result: "+320% consultas agendadas", color: "from-pink-500 to-rose-500", image: portfolioNaturadente, link: "https://naturadente.com/" },
   { id: 28, cat: "websites", title: "Boutique Purple Fashion", desc: "Vestuário Feminino.", result: "+350% vendas online", color: "from-emerald-500 to-green-500", image: portfolioBoutiquePurple, link: "https://boutiquepurplefashion.com/" },
   { id: 29, cat: "websites", title: "Perfumaria Cosmética", desc: "Perfumes e Cosméticos.", result: "+290% vendas online", color: "from-amber-500 to-orange-500", image: portfolioPerfumaria, link: "https://perfumariacosmetica.pt/" },
-  { id: 30, cat: "websites", title: "Nome do Projeto 10", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-blue-500 to-indigo-500" },
-  { id: 31, cat: "websites", title: "Nome do Projeto 11", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-violet-500 to-purple-500" },
-  { id: 32, cat: "websites", title: "Nome do Projeto 12", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-orange-500 to-red-500" },
+  { id: 30, cat: "websites", title: "Liebe Zum Haus", desc: "Empresa de Limpeza.", result: "+300% contactos online", color: "from-blue-500 to-indigo-500", image: portfolioLiebeZumHaus, link: "https://liebezumhaus.com/" },
+  { id: 31, cat: "websites", title: "Imperio Kiss", desc: "Clínica Odontológica.", result: "+320% consultas agendadas", color: "from-violet-500 to-purple-500", image: portfolioImperioKiss, link: "https://imperiokiss.com/" },
+  { id: 32, cat: "websites", title: "Daylin Cabrera", desc: "Cabeleireira.", result: "+280% agendamentos online", color: "from-orange-500 to-red-500", image: portfolioDaylinCabrera, link: "https://daylincabrera.com/" },
 ];
 
 const PortfolioSection = () => {
