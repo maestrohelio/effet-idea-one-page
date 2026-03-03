@@ -38,6 +38,9 @@ import portfolioIndianPalace from "@/assets/portfolio-indianpalacetandoori.png";
 import portfolioLemosBeauty from "@/assets/portfolio-lemosbeautyhome.png";
 import portfolioArteNoAzulejo from "@/assets/portfolio-artenoazulejo.png";
 import portfolioTotalMudancas from "@/assets/portfolio-totalmudancas.png";
+import portfolioTikkaTalk from "@/assets/portfolio-tikkatalk.png";
+import portfolioCabeloPremium from "@/assets/portfolio-cabelopremium.png";
+import portfolioIngridSuellen from "@/assets/portfolio-ingridsuellen.png";
 
 interface Project {
   id: number;
@@ -87,9 +90,9 @@ const PROJECTS: Project[] = [
   { id: 39, cat: "websites", title: "Lemos Beauty Home", desc: "Estética, Massagens e Maquiagem.", result: "+320% agendamentos online", color: "from-sky-500 to-cyan-500", image: portfolioLemosBeauty, link: "https://lemosbeautyhome.com/" },
   { id: 40, cat: "websites", title: "Arte no Azulejo", desc: "Azulejos Artesanais feitos à mão.", result: "+280% vendas online", color: "from-fuchsia-500 to-pink-500", image: portfolioArteNoAzulejo, link: "https://artenoazulejo.com/" },
   { id: 41, cat: "websites", title: "Total Mudanças", desc: "Empresa de Mudanças.", result: "+300% pedidos de orçamento", color: "from-lime-500 to-green-500", image: portfolioTotalMudancas, link: "https://totalmudancas.com/" },
-  { id: 42, cat: "websites", title: "Nome do Projeto 22", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-violet-500 to-blue-500" },
-  { id: 43, cat: "websites", title: "Nome do Projeto 23", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-teal-500 to-emerald-500" },
-  { id: 44, cat: "websites", title: "Nome do Projeto 24", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-orange-500 to-amber-500" },
+  { id: 42, cat: "websites", title: "Tikka Talk Restaurant", desc: "Restaurante Indiano.", result: "+310% reservas online", color: "from-violet-500 to-blue-500", image: portfolioTikkaTalk, link: "https://tikkatalkrestaurant.com/" },
+  { id: 43, cat: "websites", title: "Cabelo Premium", desc: "Produtos Capilares.", result: "+290% vendas online", color: "from-teal-500 to-emerald-500", image: portfolioCabeloPremium, link: "https://cabelopremium.com/" },
+  { id: 44, cat: "websites", title: "Ingrid Suellen", desc: "Design de Sobrancelhas.", result: "+340% agendamentos online", color: "from-orange-500 to-amber-500", image: portfolioIngridSuellen, link: "https://ingridsuellen.com/" },
 ];
 
 const PortfolioSection = () => {
