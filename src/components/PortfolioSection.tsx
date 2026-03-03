@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { whatsappLink } from "@/lib/whatsapp";
 import SectionWrapper from "./SectionWrapper";
 import portfolioTacofrei from "@/assets/portfolio-tacofrei.png";
+import portfolioSwissGoldenTours from "@/assets/portfolio-swissgoldentours.png";
 
 type Category = "todos" | "websites" | "campanhas" | "redes";
 
@@ -20,6 +21,7 @@ interface Project {
 
 const PROJECTS: Project[] = [
   { id: 1, cat: "websites", title: "Tacofrei", desc: "Loja online com design exclusivo.", result: "+200% vendas em 3 meses", color: "from-purple-600 to-blue-500", image: portfolioTacofrei, link: "https://tacofrei.com/" },
+  { id: 7, cat: "websites", title: "Swiss Golden Tours", desc: "Empresa de Turismo e Transfers em Zürich.", result: "+250% reservas online", color: "from-amber-500 to-orange-500", image: portfolioSwissGoldenTours, link: "https://swissgoldentours.com/" },
   { id: 2, cat: "campanhas", title: "Campanha Google Ads – Clínica", desc: "Estratégia de conversão para clínica dentária.", result: "CPA reduzido em 60%", color: "from-blue-500 to-cyan-400" },
   { id: 3, cat: "websites", title: "Site Corporativo – Consultoria Financeira", desc: "Website profissional com painel de serviços e formulário de contacto.", result: "+180% leads em 4 meses", color: "from-pink-500 to-purple-600" },
   { id: 4, cat: "websites", title: "Site Institucional – Advocacia", desc: "Presença digital profissional e credível.", result: "+150% leads qualificados", color: "from-indigo-500 to-purple-600" },
