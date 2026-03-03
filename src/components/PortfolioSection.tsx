@@ -11,6 +11,7 @@ import portfolioHappyYellow from "@/assets/portfolio-happyyellow.png";
 import portfolioEstofosKorban from "@/assets/portfolio-estofoskorban.png";
 import portfolioEletricaCunha from "@/assets/portfolio-eletricacunha.png";
 import portfolioDiamanteDourado from "@/assets/portfolio-diamantedourado.png";
+import portfolioManuelJacinto from "@/assets/portfolio-astrologomanueljacinto.png";
 
 type Category = "todos" | "websites" | "campanhas" | "redes";
 
@@ -34,6 +35,7 @@ const PROJECTS: Project[] = [
   { id: 11, cat: "websites", title: "Estofos Korban", desc: "Estofamento de Luxo para Iates.", result: "+220% pedidos de orçamento", color: "from-sky-500 to-blue-600", image: portfolioEstofosKorban, link: "https://estofoskorban.com/" },
   { id: 12, cat: "websites", title: "Elétrica Cunha Soluções", desc: "Serviços de elétrica.", result: "+190% pedidos online", color: "from-orange-500 to-amber-600", image: portfolioEletricaCunha, link: "https://eletricacunhasolucoes.com/" },
   { id: 13, cat: "websites", title: "Diamante Dourado", desc: "Imobiliária.", result: "+400% leads qualificados", color: "from-yellow-600 to-amber-700", image: portfolioDiamanteDourado, link: "https://diamantedourado.com.pt/" },
+  { id: 14, cat: "websites", title: "Astrólogo Manuel Jacinto", desc: "Astrologia e Tarot.", result: "+260% consultas agendadas", color: "from-violet-600 to-purple-700", image: portfolioManuelJacinto, link: "https://astrologomanueljacinto.com/" },
   { id: 2, cat: "campanhas", title: "Campanha Google Ads – Clínica", desc: "Estratégia de conversão para clínica dentária.", result: "CPA reduzido em 60%", color: "from-blue-500 to-cyan-400" },
   { id: 3, cat: "websites", title: "Site Corporativo – Consultoria Financeira", desc: "Website profissional com painel de serviços e formulário de contacto.", result: "+180% leads em 4 meses", color: "from-pink-500 to-purple-600" },
   { id: 4, cat: "websites", title: "Site Institucional – Advocacia", desc: "Presença digital profissional e credível.", result: "+150% leads qualificados", color: "from-indigo-500 to-purple-600" },
