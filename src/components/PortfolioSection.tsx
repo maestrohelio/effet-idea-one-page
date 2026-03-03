@@ -93,6 +93,9 @@ const PROJECTS: Project[] = [
   { id: 42, cat: "websites", title: "Tikka Talk Restaurant", desc: "Restaurante Indiano.", result: "+310% reservas online", color: "from-violet-500 to-blue-500", image: portfolioTikkaTalk, link: "https://tikkatalkrestaurant.com/" },
   { id: 43, cat: "websites", title: "Cabelo Premium", desc: "Produtos Capilares.", result: "+290% vendas online", color: "from-teal-500 to-emerald-500", image: portfolioCabeloPremium, link: "https://cabelopremium.com/" },
   { id: 44, cat: "websites", title: "Ingrid Suellen", desc: "Design de Sobrancelhas.", result: "+340% agendamentos online", color: "from-orange-500 to-amber-500", image: portfolioIngridSuellen, link: "https://ingridsuellen.com/" },
+  { id: 45, cat: "websites", title: "Nome do Projeto 25", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-cyan-500 to-blue-500" },
+  { id: 46, cat: "websites", title: "Nome do Projeto 26", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-rose-500 to-pink-500" },
+  { id: 47, cat: "websites", title: "Nome do Projeto 27", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-emerald-500 to-teal-500" },
 ];
 
 const PortfolioSection = () => {
