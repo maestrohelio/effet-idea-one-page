@@ -35,6 +35,9 @@ import portfolioSouzaCar from "@/assets/portfolio-oficinasouzacar.png";
 import portfolioFemmeSkin from "@/assets/portfolio-femmeskin.png";
 import portfolioJoaoSantos from "@/assets/portfolio-joaosantosimobiliaria.png";
 import portfolioIndianPalace from "@/assets/portfolio-indianpalacetandoori.png";
+import portfolioLemosBeauty from "@/assets/portfolio-lemosbeautyhome.png";
+import portfolioArteNoAzulejo from "@/assets/portfolio-artenoazulejo.png";
+import portfolioTotalMudancas from "@/assets/portfolio-totalmudancas.png";
 
 interface Project {
   id: number;
@@ -81,9 +84,9 @@ const PROJECTS: Project[] = [
   { id: 36, cat: "websites", title: "Femme Skin", desc: "Estética e Massagens.", result: "+320% agendamentos online", color: "from-purple-500 to-indigo-500", image: portfolioFemmeSkin, link: "https://femme.skin/" },
   { id: 37, cat: "websites", title: "João Santos Imobiliária", desc: "Imobiliária.", result: "+350% leads qualificados", color: "from-amber-500 to-yellow-500", image: portfolioJoaoSantos, link: "https://joaosantosimobiliaria.com/" },
   { id: 38, cat: "websites", title: "Indian Palace Tandoori", desc: "Restaurante Indiano.", result: "+290% reservas online", color: "from-red-500 to-orange-500", image: portfolioIndianPalace, link: "https://indianpalacetandoori.com/" },
-  { id: 39, cat: "websites", title: "Nome do Projeto 19", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-sky-500 to-cyan-500" },
-  { id: 40, cat: "websites", title: "Nome do Projeto 20", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-fuchsia-500 to-pink-500" },
-  { id: 41, cat: "websites", title: "Nome do Projeto 21", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-lime-500 to-green-500" },
+  { id: 39, cat: "websites", title: "Lemos Beauty Home", desc: "Estética, Massagens e Maquiagem.", result: "+320% agendamentos online", color: "from-sky-500 to-cyan-500", image: portfolioLemosBeauty, link: "https://lemosbeautyhome.com/" },
+  { id: 40, cat: "websites", title: "Arte no Azulejo", desc: "Azulejos Artesanais feitos à mão.", result: "+280% vendas online", color: "from-fuchsia-500 to-pink-500", image: portfolioArteNoAzulejo, link: "https://artenoazulejo.com/" },
+  { id: 41, cat: "websites", title: "Total Mudanças", desc: "Empresa de Mudanças.", result: "+300% pedidos de orçamento", color: "from-lime-500 to-green-500", image: portfolioTotalMudancas, link: "https://totalmudancas.com/" },
   { id: 42, cat: "websites", title: "Nome do Projeto 22", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-violet-500 to-blue-500" },
   { id: 43, cat: "websites", title: "Nome do Projeto 23", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-teal-500 to-emerald-500" },
   { id: 44, cat: "websites", title: "Nome do Projeto 24", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-orange-500 to-amber-500" },
