@@ -23,7 +23,9 @@ import portfolioSavana from "@/assets/portfolio-savanaconstrucoes.png";
 import portfolioPetalasLisas from "@/assets/portfolio-petalaslisas.png";
 import portfolioGlamourFestivo from "@/assets/portfolio-glamourfestivo.png";
 import portfolioWilhelmImport from "@/assets/portfolio-wilhelmimport.png";
-
+import portfolioNaturadente from "@/assets/portfolio-naturadente.png";
+import portfolioBoutiquePurple from "@/assets/portfolio-boutiquepurplefashion.png";
+import portfolioPerfumaria from "@/assets/portfolio-perfumariacosmetica.png";
 
 interface Project {
   id: number;
@@ -58,9 +60,9 @@ const PROJECTS: Project[] = [
   { id: 24, cat: "websites", title: "Pétalas Lisas", desc: "Empresa de Limpeza.", result: "+300% contactos online", color: "from-cyan-500 to-blue-500", image: portfolioPetalasLisas, link: "https://petalaslisas.com/" },
   { id: 25, cat: "websites", title: "Glamour Festivo", desc: "Roupas de Casamento.", result: "+350% vendas online", color: "from-indigo-500 to-violet-500", image: portfolioGlamourFestivo, link: "https://glamourfestivo.com/" },
   { id: 26, cat: "websites", title: "Wilhelm Import", desc: "Importação e Exportação.", result: "+280% leads qualificados", color: "from-teal-500 to-cyan-500", image: portfolioWilhelmImport, link: "https://wilhelmimport.com/" },
-  { id: 27, cat: "websites", title: "Nome do Projeto 7", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-pink-500 to-rose-500" },
-  { id: 28, cat: "websites", title: "Nome do Projeto 8", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-emerald-500 to-green-500" },
-  { id: 29, cat: "websites", title: "Nome do Projeto 9", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-amber-500 to-orange-500" },
+  { id: 27, cat: "websites", title: "Naturadente", desc: "Odontologia.", result: "+320% consultas agendadas", color: "from-pink-500 to-rose-500", image: portfolioNaturadente, link: "https://naturadente.com/" },
+  { id: 28, cat: "websites", title: "Boutique Purple Fashion", desc: "Vestuário Feminino.", result: "+350% vendas online", color: "from-emerald-500 to-green-500", image: portfolioBoutiquePurple, link: "https://boutiquepurplefashion.com/" },
+  { id: 29, cat: "websites", title: "Perfumaria Cosmética", desc: "Perfumes e Cosméticos.", result: "+290% vendas online", color: "from-amber-500 to-orange-500", image: portfolioPerfumaria, link: "https://perfumariacosmetica.pt/" },
   { id: 30, cat: "websites", title: "Nome do Projeto 10", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-blue-500 to-indigo-500" },
   { id: 31, cat: "websites", title: "Nome do Projeto 11", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-violet-500 to-purple-500" },
   { id: 32, cat: "websites", title: "Nome do Projeto 12", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-orange-500 to-red-500" },
