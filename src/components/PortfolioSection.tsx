@@ -8,6 +8,7 @@ import portfolioSwissGoldenTours from "@/assets/portfolio-swissgoldentours.png";
 import portfolioToprontapramim from "@/assets/portfolio-toprontapramim.png";
 import portfolioAstrologa from "@/assets/portfolio-astrologamarialuis.png";
 import portfolioHappyYellow from "@/assets/portfolio-happyyellow.png";
+import portfolioEstofosKorban from "@/assets/portfolio-estofoskorban.png";
 
 type Category = "todos" | "websites" | "campanhas" | "redes";
 
@@ -28,6 +29,7 @@ const PROJECTS: Project[] = [
   { id: 8, cat: "websites", title: "Tô Pronta Pra Mim", desc: "Loja de Roupas Feminina.", result: "+320% vendas online", color: "from-rose-400 to-pink-500", image: portfolioToprontapramim, link: "https://toprontapramim.com/" },
   { id: 9, cat: "websites", title: "Astróloga Maria Luis", desc: "Astrologia, Tarôt e Espiritualidade.", result: "+280% consultas online", color: "from-teal-600 to-emerald-500", image: portfolioAstrologa, link: "https://astrologamarialuis.com/" },
   { id: 10, cat: "websites", title: "Happy Yellow", desc: "Eventos, Show e Agenciamento.", result: "+350% visibilidade online", color: "from-yellow-400 to-amber-500", image: portfolioHappyYellow, link: "https://happy-yellow.com/" },
+  { id: 11, cat: "websites", title: "Estofos Korban", desc: "Estofamento de Luxo para Iates.", result: "+220% pedidos de orçamento", color: "from-sky-500 to-blue-600", image: portfolioEstofosKorban, link: "https://estofoskorban.com/" },
   { id: 2, cat: "campanhas", title: "Campanha Google Ads – Clínica", desc: "Estratégia de conversão para clínica dentária.", result: "CPA reduzido em 60%", color: "from-blue-500 to-cyan-400" },
   { id: 3, cat: "websites", title: "Site Corporativo – Consultoria Financeira", desc: "Website profissional com painel de serviços e formulário de contacto.", result: "+180% leads em 4 meses", color: "from-pink-500 to-purple-600" },
   { id: 4, cat: "websites", title: "Site Institucional – Advocacia", desc: "Presença digital profissional e credível.", result: "+150% leads qualificados", color: "from-indigo-500 to-purple-600" },
