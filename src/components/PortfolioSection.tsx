@@ -18,6 +18,7 @@ import portfolioJasaServicos from "@/assets/portfolio-jasaservicos.png";
 import portfolioMyPortailTech from "@/assets/portfolio-myportailtech.png";
 import portfolioElliHair from "@/assets/portfolio-ellihair.png";
 import portfolioTonsDePele from "@/assets/portfolio-tonsdepele.png";
+import portfolioOzone7 from "@/assets/portfolio-ozone7.png";
 
 
 
@@ -49,7 +50,7 @@ const PROJECTS: Project[] = [
   { id: 19, cat: "websites", title: "My Portail Tech", desc: "Automações de Portões.", result: "+270% pedidos online", color: "from-orange-500 to-yellow-500", image: portfolioMyPortailTech, link: "https://myportailtech.com/" },
   { id: 20, cat: "websites", title: "Elli Hair", desc: "Produtos para Cabelos Especiais.", result: "+340% vendas online", color: "from-yellow-700 to-amber-800", image: portfolioElliHair, link: "https://lp.ellihair.com/" },
   { id: 21, cat: "websites", title: "Tons de Pele", desc: "Vestuário Íntimo Feminino.", result: "+380% vendas online", color: "from-rose-700 to-red-800", image: portfolioTonsDePele, link: "https://tonsdepele.com/" },
-  { id: 22, cat: "websites", title: "Nome do Projeto 2", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-fuchsia-500 to-pink-500" },
+  { id: 22, cat: "websites", title: "Ozone 7 Real Estate", desc: "Imobiliária.", result: "+350% leads qualificados", color: "from-amber-500 to-yellow-600", image: portfolioOzone7, link: "https://ozone7realestate.com/" },
   { id: 23, cat: "websites", title: "Nome do Projeto 3", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-lime-500 to-green-500" },
 ];
 
