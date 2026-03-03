@@ -15,6 +15,7 @@ import portfolioManuelJacinto from "@/assets/portfolio-astrologomanueljacinto.pn
 import portfolioArteAfiada from "@/assets/portfolio-arteafiada.png";
 import portfolioAfricanoa from "@/assets/portfolio-africanoa.png";
 import portfolioWsObras from "@/assets/portfolio-wsobras.png";
+import portfolioJasaServicos from "@/assets/portfolio-jasaservicos.png";
 
 type Category = "todos" | "websites" | "campanhas" | "redes";
 
@@ -42,6 +43,7 @@ const PROJECTS: Project[] = [
   { id: 15, cat: "websites", title: "Cutelaria Arte Afiada", desc: "Cutelaria e Facas Especiais.", result: "+290% vendas online", color: "from-stone-600 to-amber-700", image: portfolioArteAfiada, link: "https://arteafiada.com/" },
   { id: 16, cat: "websites", title: "Africanoa", desc: "Viagens, Turismo e Exportação.", result: "+310% reservas online", color: "from-green-600 to-emerald-500", image: portfolioAfricanoa, link: "https://africanoa.com/" },
   { id: 17, cat: "websites", title: "WS Obras", desc: "Obras e Remodelações.", result: "+240% pedidos de orçamento", color: "from-red-500 to-rose-600", image: portfolioWsObras, link: "https://ws-obras.com/" },
+  { id: 18, cat: "websites", title: "Jasa Serviços", desc: "Mudanças em Geral.", result: "+200% contactos online", color: "from-red-600 to-gray-700", image: portfolioJasaServicos, link: "https://jasaservicos.effectidea.com/" },
   { id: 2, cat: "campanhas", title: "Campanha Google Ads – Clínica", desc: "Estratégia de conversão para clínica dentária.", result: "CPA reduzido em 60%", color: "from-blue-500 to-cyan-400" },
   { id: 3, cat: "websites", title: "Site Corporativo – Consultoria Financeira", desc: "Website profissional com painel de serviços e formulário de contacto.", result: "+180% leads em 4 meses", color: "from-pink-500 to-purple-600" },
   { id: 4, cat: "websites", title: "Site Institucional – Advocacia", desc: "Presença digital profissional e credível.", result: "+150% leads qualificados", color: "from-indigo-500 to-purple-600" },
