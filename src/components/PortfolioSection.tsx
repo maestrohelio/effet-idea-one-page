@@ -41,6 +41,9 @@ import portfolioTotalMudancas from "@/assets/portfolio-totalmudancas.png";
 import portfolioTikkaTalk from "@/assets/portfolio-tikkatalk.png";
 import portfolioCabeloPremium from "@/assets/portfolio-cabelopremium.png";
 import portfolioIngridSuellen from "@/assets/portfolio-ingridsuellen.png";
+import portfolioTecnicaEliane from "@/assets/portfolio-tecnicaelianewilhelm.png";
+import portfolioLastMountain from "@/assets/portfolio-lavandarialastmountain.png";
+import portfolioMrtAutoSpa from "@/assets/portfolio-mrtautospa.png";
 
 interface Project {
   id: number;
@@ -93,9 +96,9 @@ const PROJECTS: Project[] = [
   { id: 42, cat: "websites", title: "Tikka Talk Restaurant", desc: "Restaurante Indiano.", result: "+310% reservas online", color: "from-violet-500 to-blue-500", image: portfolioTikkaTalk, link: "https://tikkatalkrestaurant.com/" },
   { id: 43, cat: "websites", title: "Cabelo Premium", desc: "Produtos Capilares.", result: "+290% vendas online", color: "from-teal-500 to-emerald-500", image: portfolioCabeloPremium, link: "https://cabelopremium.com/" },
   { id: 44, cat: "websites", title: "Ingrid Suellen", desc: "Design de Sobrancelhas.", result: "+340% agendamentos online", color: "from-orange-500 to-amber-500", image: portfolioIngridSuellen, link: "https://ingridsuellen.com/" },
-  { id: 45, cat: "websites", title: "Nome do Projeto 25", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-cyan-500 to-blue-500" },
-  { id: 46, cat: "websites", title: "Nome do Projeto 26", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-rose-500 to-pink-500" },
-  { id: 47, cat: "websites", title: "Nome do Projeto 27", desc: "Descrição do projeto.", result: "+200% resultados", color: "from-emerald-500 to-teal-500" },
+  { id: 45, cat: "websites", title: "Técnica Eliane Wilhelm", desc: "Depilação.", result: "+310% agendamentos online", color: "from-cyan-500 to-blue-500", image: portfolioTecnicaEliane, link: "https://tecnicaelianewilhelm.com/" },
+  { id: 46, cat: "websites", title: "Lavandaria Last Mountain", desc: "Lavandaria de Roupas.", result: "+280% pedidos online", color: "from-rose-500 to-pink-500", image: portfolioLastMountain, link: "https://lavandarialastmountain.com/" },
+  { id: 47, cat: "websites", title: "MRT Auto Spa", desc: "Lavagem de Automóveis.", result: "+320% reservas online", color: "from-emerald-500 to-teal-500", image: portfolioMrtAutoSpa, link: "https://mrtautospa.com/" },
 ];
 
 const PortfolioSection = () => {
