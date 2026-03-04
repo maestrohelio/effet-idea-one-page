@@ -153,7 +153,7 @@ const PortfolioSection = () => {
                       href={p.link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1.5 text-xs font-semibold text-primary hover:text-primary/80 transition-colors"
+                      className="inline-flex items-center gap-2 text-xs font-bold px-4 py-2 rounded-full bg-primary text-primary-foreground hover:bg-primary/85 transition-all shadow-md hover:shadow-lg"
                     >
                       <ExternalLink size={14} />
                       Ver Site
