@@ -1,0 +1,18 @@
+:{{PORT}} {
+	root * /app/dist
+	file_server
+
+	# Cache static assets for 1 year
+	@static path /assets/*
+	header @static Cache-Control "public, max-age=31536000, immutable"
+
+	# Cache images/fonts in public folder for 30 days
+	@publicAssets path *.png *.jpg *.jpeg *.webp *.svg *.ico *.woff *.woff2
+	header @publicAssets Cache-Control "public, max-age=2592000"
+
+	# SPA fallback
+	try_files {path} /index.html
+
+	# Compression
+	encode gzip zstd
+}
