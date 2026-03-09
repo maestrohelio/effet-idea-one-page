@@ -118,7 +118,7 @@ const PortfolioSection = () => {
           <span className="gradient-text">Falam por Nós</span>
         </h2>
         <p className="text-muted-foreground text-base md:text-lg">
-          Veja alguns dos sites que criámos para clientes reais – e os resultados que alcançaram.
+          Veja alguns dos sites que criámos para clientes reais, e os resultados que alcançaram.
         </p>
       </div>
 
