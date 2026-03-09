@@ -59,6 +59,7 @@ interface Project {
   link?: string;
 }
 
+// Portfolio projects list - updated 2026-03-09
 const PROJECTS: Project[] = [
   { id: 100, cat: "websites", title: "Atelier do Sim", desc: "Casamentos e Parcerias.", result: "+300% pedidos de orçamento", color: "from-rose-300 to-pink-400", image: portfolioAtelierDoSim, link: "https://atelierdosim.com" },
   { id: 101, cat: "websites", title: "Nexo TV", desc: "Streaming e TV.", result: "+400% visualizações", color: "from-orange-500 to-red-600", image: portfolioNexoTV, link: "https://nexotvst.com" },
