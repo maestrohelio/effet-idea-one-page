@@ -44,6 +44,9 @@ import portfolioIngridSuellen from "@/assets/portfolio-ingridsuellen.png";
 import portfolioTecnicaEliane from "@/assets/portfolio-tecnicaelianewilhelm.png";
 import portfolioLastMountain from "@/assets/portfolio-lavandarialastmountain.png";
 import portfolioMrtAutoSpa from "@/assets/portfolio-mrtautospa.png";
+import portfolioAtelierDoSim from "@/assets/portfolio-atelierdosim.png";
+import portfolioNexoTV from "@/assets/portfolio-nexotv.png";
+import portfolioIndianPalace2 from "@/assets/portfolio-indianpalacetandoori2.png";
 
 interface Project {
   id: number;
@@ -57,9 +60,9 @@ interface Project {
 }
 
 const PROJECTS: Project[] = [
-  { id: 100, cat: "websites", title: "Novo Site 1", desc: "Em breve.", result: "Em breve", color: "from-gray-500 to-gray-600" },
-  { id: 101, cat: "websites", title: "Novo Site 2", desc: "Em breve.", result: "Em breve", color: "from-gray-500 to-gray-600" },
-  { id: 102, cat: "websites", title: "Novo Site 3", desc: "Em breve.", result: "Em breve", color: "from-gray-500 to-gray-600" },
+  { id: 100, cat: "websites", title: "Atelier do Sim", desc: "Casamentos e Parcerias.", result: "+300% pedidos de orçamento", color: "from-rose-300 to-pink-400", image: portfolioAtelierDoSim, link: "https://atelierdosim.com" },
+  { id: 101, cat: "websites", title: "Nexo TV", desc: "Streaming e TV.", result: "+400% visualizações", color: "from-orange-500 to-red-600", image: portfolioNexoTV, link: "https://nexotvst.com" },
+  { id: 102, cat: "websites", title: "Indian Palace Tandoori", desc: "Restaurante Indiano.", result: "+250% reservas online", color: "from-amber-600 to-yellow-500", image: portfolioIndianPalace2, link: "https://indianpalacetandoori.com" },
   { id: 1, cat: "websites", title: "Tacofrei", desc: "Loja online com design exclusivo.", result: "+200% vendas em 3 meses", color: "from-purple-600 to-blue-500", image: portfolioTacofrei, link: "https://tacofrei.com/" },
   { id: 7, cat: "websites", title: "Swiss Golden Tours", desc: "Empresa de Turismo e Transfers em Zürich.", result: "+250% reservas online", color: "from-amber-500 to-orange-500", image: portfolioSwissGoldenTours, link: "https://swissgoldentours.com/" },
   { id: 8, cat: "websites", title: "Tô Pronta Pra Mim", desc: "Loja de Roupas Feminina.", result: "+320% vendas online", color: "from-rose-400 to-pink-500", image: portfolioToprontapramim, link: "https://toprontapramim.com/" },
