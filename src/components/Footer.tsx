@@ -16,7 +16,9 @@ const Footer = () => (
     <div className="container mx-auto px-4">
       <div className="flex flex-col md:flex-row items-center md:items-start justify-between gap-8">
         <div>
-          <img src={logoDark} alt="Effect Idea" className="h-8 mb-4" />
+          <a href="https://effectidea.com" target="_blank" rel="noopener noreferrer">
+            <img src={logoDark} alt="Effect Idea" className="h-8 mb-4" />
+          </a>
           {isPromoActive() && (
             <p className="text-muted-foreground text-xs">
               ✨ Promoção de sites a 200€ válida até{" "}
