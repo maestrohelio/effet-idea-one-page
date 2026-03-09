@@ -57,6 +57,9 @@ interface Project {
 }
 
 const PROJECTS: Project[] = [
+  { id: 100, cat: "websites", title: "Novo Site 1", desc: "Em breve.", result: "Em breve", color: "from-gray-500 to-gray-600" },
+  { id: 101, cat: "websites", title: "Novo Site 2", desc: "Em breve.", result: "Em breve", color: "from-gray-500 to-gray-600" },
+  { id: 102, cat: "websites", title: "Novo Site 3", desc: "Em breve.", result: "Em breve", color: "from-gray-500 to-gray-600" },
   { id: 1, cat: "websites", title: "Tacofrei", desc: "Loja online com design exclusivo.", result: "+200% vendas em 3 meses", color: "from-purple-600 to-blue-500", image: portfolioTacofrei, link: "https://tacofrei.com/" },
   { id: 7, cat: "websites", title: "Swiss Golden Tours", desc: "Empresa de Turismo e Transfers em Zürich.", result: "+250% reservas online", color: "from-amber-500 to-orange-500", image: portfolioSwissGoldenTours, link: "https://swissgoldentours.com/" },
   { id: 8, cat: "websites", title: "Tô Pronta Pra Mim", desc: "Loja de Roupas Feminina.", result: "+320% vendas online", color: "from-rose-400 to-pink-500", image: portfolioToprontapramim, link: "https://toprontapramim.com/" },
