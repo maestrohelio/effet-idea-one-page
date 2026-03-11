@@ -47,6 +47,7 @@ import portfolioMrtAutoSpa from "@/assets/portfolio-mrtautospa.png";
 import portfolioAtelierDoSim from "@/assets/portfolio-atelierdosim.png";
 import portfolioNexoTV from "@/assets/portfolio-nexotv.png";
 import portfolioIndianPalace2 from "@/assets/portfolio-indianpalacetandoori2.png";
+import portfolioTransportJJEurope from "@/assets/portfolio-transportjjeurope.png";
 
 interface Project {
   id: number;
