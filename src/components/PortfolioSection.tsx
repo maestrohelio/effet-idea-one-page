@@ -48,6 +48,9 @@ import portfolioAtelierDoSim from "@/assets/portfolio-atelierdosim.png";
 import portfolioNexoTV from "@/assets/portfolio-nexotv.png";
 import portfolioIndianPalace2 from "@/assets/portfolio-indianpalacetandoori2.png";
 import portfolioTransportJJEurope from "@/assets/portfolio-transportjjeurope.png";
+import portfolioGPAutomoveis from "@/assets/portfolio-gpautomoveis.png";
+import portfolioCRInvestimentos from "@/assets/portfolio-crinvestimentos.png";
+import portfolioTotalMudancas2 from "@/assets/portfolio-totalmudancas2.png";
 
 interface Project {
   id: number;
