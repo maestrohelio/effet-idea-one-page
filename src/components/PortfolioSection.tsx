@@ -65,9 +65,9 @@ interface Project {
 
 // Portfolio projects list - updated 2026-03-09
 const PROJECTS: Project[] = [
-  { id: 200, cat: "websites", title: "Placeholder 1", desc: "A definir.", result: "+267% a definir", color: "from-emerald-500 to-teal-600" },
-  { id: 201, cat: "websites", title: "Placeholder 2", desc: "A definir.", result: "+341% a definir", color: "from-indigo-500 to-violet-600" },
-  { id: 202, cat: "websites", title: "Placeholder 3", desc: "A definir.", result: "+189% a definir", color: "from-amber-500 to-rose-500" },
+  { id: 200, cat: "websites", title: "GP Automóveis", desc: "Stande de Automóveis.", result: "+267% leads qualificados", color: "from-stone-700 to-neutral-900", image: portfolioGPAutomoveis, link: "https://gp-automoveis.pt" },
+  { id: 201, cat: "websites", title: "CR Investimentos", desc: "Compra, Venda e Remodelação de Imóveis.", result: "+341% pedidos de contacto", color: "from-amber-800 to-stone-900", image: portfolioCRInvestimentos, link: "https://cr-investimentos.com" },
+  { id: 202, cat: "websites", title: "Total Mudanças", desc: "Empresa de Mudanças.", result: "+189% pedidos de orçamento", color: "from-blue-700 to-sky-500", image: portfolioTotalMudancas2, link: "https://totalmudancas.com" },
   { id: 100, cat: "websites", title: "Atelier do Sim", desc: "Casamentos e Parcerias.", result: "+297% pedidos de orçamento", color: "from-rose-300 to-pink-400", image: portfolioAtelierDoSim, link: "https://atelierdosim.com" },
   { id: 101, cat: "websites", title: "Nexo TV", desc: "Streaming e TV.", result: "+412% visualizações", color: "from-orange-500 to-red-600", image: portfolioNexoTV, link: "https://nexotvst.com" },
   { id: 102, cat: "websites", title: "Transport JJ Europe", desc: "Transportes Internacionais.", result: "+286% pedidos de orçamento", color: "from-blue-600 to-yellow-500", image: portfolioTransportJJEurope, link: "https://transportjjeurope.com" },
