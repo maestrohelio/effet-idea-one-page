@@ -52,6 +52,8 @@ import portfolioGPAutomoveis from "@/assets/portfolio-gpautomoveis.png";
 import portfolioCRInvestimentos from "@/assets/portfolio-crinvestimentos.png";
 import portfolioTotalMudancas2 from "@/assets/portfolio-totalmudancas2.png";
 
+import portfolioDoxaTours from "@/assets/portfolio-doxatours.png";
+
 interface Project {
   id: number;
   cat: "websites" | "campanhas" | "redes";
