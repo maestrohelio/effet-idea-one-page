@@ -52,6 +52,8 @@ import portfolioGPAutomoveis from "@/assets/portfolio-gpautomoveis.png";
 import portfolioCRInvestimentos from "@/assets/portfolio-crinvestimentos.png";
 import portfolioTotalMudancas2 from "@/assets/portfolio-totalmudancas2.png";
 
+import portfolioDoxaTours from "@/assets/portfolio-doxatours.png";
+
 interface Project {
   id: number;
   cat: "websites" | "campanhas" | "redes";
@@ -67,7 +69,7 @@ interface Project {
 const PROJECTS: Project[] = [
   { id: 200, cat: "websites", title: "GP Automóveis", desc: "Stande de Automóveis.", result: "+267% leads qualificados", color: "from-stone-700 to-neutral-900", image: portfolioGPAutomoveis, link: "https://gp-automoveis.pt" },
   { id: 201, cat: "websites", title: "CR Investimentos", desc: "Compra, Venda e Remodelação de Imóveis.", result: "+341% pedidos de contacto", color: "from-amber-800 to-stone-900", image: portfolioCRInvestimentos, link: "https://cr-investimentos.com" },
-  { id: 202, cat: "websites", title: "Total Mudanças", desc: "Empresa de Mudanças.", result: "+189% pedidos de orçamento", color: "from-blue-700 to-sky-500", image: portfolioTotalMudancas2, link: "https://totalmudancas.com" },
+  { id: 202, cat: "websites", title: "Doxa Tours", desc: "Transfer, Tours e Viagens.", result: "+189% reservas online", color: "from-amber-600 to-yellow-500", image: portfolioDoxaTours, link: "https://doxatours.com" },
   { id: 100, cat: "websites", title: "Atelier do Sim", desc: "Casamentos e Parcerias.", result: "+297% pedidos de orçamento", color: "from-rose-300 to-pink-400", image: portfolioAtelierDoSim, link: "https://atelierdosim.com" },
   { id: 101, cat: "websites", title: "Nexo TV", desc: "Streaming e TV.", result: "+412% visualizações", color: "from-orange-500 to-red-600", image: portfolioNexoTV, link: "https://nexotvst.com" },
   { id: 102, cat: "websites", title: "Transport JJ Europe", desc: "Transportes Internacionais.", result: "+286% pedidos de orçamento", color: "from-blue-600 to-yellow-500", image: portfolioTransportJJEurope, link: "https://transportjjeurope.com" },
