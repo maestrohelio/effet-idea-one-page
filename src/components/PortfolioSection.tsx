@@ -21,7 +21,7 @@ import portfolioOzone7 from "@/assets/portfolio-ozone7.png";
 import portfolioSavana from "@/assets/portfolio-savanaconstrucoes.png";
 import portfolioPetalasLisas from "@/assets/portfolio-petalaslisas.png";
 import portfolioGlamourFestivo from "@/assets/portfolio-glamourfestivo.png";
-import portfolioWilhelmImport from "@/assets/portfolio-wilhelmimport.png";
+
 import portfolioNaturadente from "@/assets/portfolio-naturadente.png";
 import portfolioBoutiquePurple from "@/assets/portfolio-boutiquepurplefashion.png";
 import portfolioPerfumaria from "@/assets/portfolio-perfumariacosmetica.png";
