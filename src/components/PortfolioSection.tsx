@@ -100,11 +100,8 @@ const PROJECTS: Project[] = [
   { id: 40, cat: "websites", title: "Arte no Azulejo", desc: "Azulejos Artesanais feitos à mão.", result: "+278% vendas online", color: "from-fuchsia-500 to-pink-500", image: portfolioArteNoAzulejo, link: "https://artenoazulejo.com/" },
   { id: 41, cat: "websites", title: "Total Mudanças", desc: "Empresa de Mudanças.", result: "+294% pedidos de orçamento", color: "from-lime-500 to-green-500", image: portfolioTotalMudancas, link: "https://totalmudancas.com/" },
   { id: 42, cat: "websites", title: "Tikka Talk Restaurant", desc: "Restaurante Indiano.", result: "+312% reservas online", color: "from-violet-500 to-blue-500", image: portfolioTikkaTalk, link: "https://tikkatalkrestaurant.com/" },
-  { id: 43, cat: "websites", title: "Cabelo Premium", desc: "Produtos Capilares.", result: "+293% vendas online", color: "from-teal-500 to-emerald-500", image: portfolioCabeloPremium, link: "https://cabelopremium.com/" },
   { id: 44, cat: "websites", title: "Ingrid Suellen", desc: "Design de Sobrancelhas.", result: "+341% agendamentos online", color: "from-orange-500 to-amber-500", image: portfolioIngridSuellen, link: "https://ingridsuellen.com/" },
-  { id: 45, cat: "websites", title: "Técnica Eliane Wilhelm", desc: "Depilação.", result: "+308% agendamentos online", color: "from-cyan-500 to-blue-500", image: portfolioTecnicaEliane, link: "https://tecnicaelianewilhelm.com/" },
   { id: 46, cat: "websites", title: "Lavandaria Last Mountain", desc: "Lavandaria de Roupas.", result: "+276% pedidos online", color: "from-rose-500 to-pink-500", image: portfolioLastMountain, link: "https://lavandarialastmountain.com/" },
-  { id: 47, cat: "websites", title: "MRT Auto Spa", desc: "Lavagem de Automóveis.", result: "+323% reservas online", color: "from-emerald-500 to-teal-500", image: portfolioMrtAutoSpa, link: "https://mrtautospa.com/" },
 ];
 
 const PortfolioSection = () => {
