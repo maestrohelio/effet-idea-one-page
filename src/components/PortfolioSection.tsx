@@ -2,7 +2,6 @@ import { MessageCircle, ExternalLink } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { whatsappLink } from "@/lib/whatsapp";
 import SectionWrapper from "./SectionWrapper";
-import portfolioTacofrei from "@/assets/portfolio-tacofrei.png";
 import portfolioSwissGoldenTours from "@/assets/portfolio-swissgoldentours.png";
 import portfolioToprontapramim from "@/assets/portfolio-toprontapramim.png";
 import portfolioAstrologa from "@/assets/portfolio-astrologamarialuis.png";
@@ -22,11 +21,8 @@ import portfolioOzone7 from "@/assets/portfolio-ozone7.png";
 import portfolioSavana from "@/assets/portfolio-savanaconstrucoes.png";
 import portfolioPetalasLisas from "@/assets/portfolio-petalaslisas.png";
 import portfolioGlamourFestivo from "@/assets/portfolio-glamourfestivo.png";
-import portfolioWilhelmImport from "@/assets/portfolio-wilhelmimport.png";
+
 import portfolioNaturadente from "@/assets/portfolio-naturadente.png";
-import portfolioBoutiquePurple from "@/assets/portfolio-boutiquepurplefashion.png";
-import portfolioPerfumaria from "@/assets/portfolio-perfumariacosmetica.png";
-import portfolioLiebeZumHaus from "@/assets/portfolio-liebezumhaus.png";
 import portfolioImperioKiss from "@/assets/portfolio-imperiokiss.png";
 import portfolioDaylinCabrera from "@/assets/portfolio-daylincabrera.png";
 import portfolioPaulaDuarte from "@/assets/portfolio-pauladuarteadvogados.png";
@@ -39,11 +35,9 @@ import portfolioLemosBeauty from "@/assets/portfolio-lemosbeautyhome.png";
 import portfolioArteNoAzulejo from "@/assets/portfolio-artenoazulejo.png";
 import portfolioTotalMudancas from "@/assets/portfolio-totalmudancas.png";
 import portfolioTikkaTalk from "@/assets/portfolio-tikkatalk.png";
-import portfolioCabeloPremium from "@/assets/portfolio-cabelopremium.png";
+
 import portfolioIngridSuellen from "@/assets/portfolio-ingridsuellen.png";
-import portfolioTecnicaEliane from "@/assets/portfolio-tecnicaelianewilhelm.png";
 import portfolioLastMountain from "@/assets/portfolio-lavandarialastmountain.png";
-import portfolioMrtAutoSpa from "@/assets/portfolio-mrtautospa.png";
 import portfolioAtelierDoSim from "@/assets/portfolio-atelierdosim.png";
 import portfolioNexoTV from "@/assets/portfolio-nexotv.png";
 import portfolioIndianPalace2 from "@/assets/portfolio-indianpalacetandoori2.png";
@@ -73,7 +67,7 @@ const PROJECTS: Project[] = [
   { id: 100, cat: "websites", title: "Atelier do Sim", desc: "Casamentos e Parcerias.", result: "+297% pedidos de orçamento", color: "from-rose-300 to-pink-400", image: portfolioAtelierDoSim, link: "https://atelierdosim.com" },
   { id: 101, cat: "websites", title: "Nexo TV", desc: "Streaming e TV.", result: "+412% visualizações", color: "from-orange-500 to-red-600", image: portfolioNexoTV, link: "https://nexotvst.com" },
   { id: 102, cat: "websites", title: "Transport JJ Europe", desc: "Transportes Internacionais.", result: "+286% pedidos de orçamento", color: "from-blue-600 to-yellow-500", image: portfolioTransportJJEurope, link: "https://transportjjeurope.com" },
-  { id: 1, cat: "websites", title: "Tacofrei", desc: "Loja online com design exclusivo.", result: "+197% vendas em 3 meses", color: "from-purple-600 to-blue-500", image: portfolioTacofrei, link: "https://tacofrei.com/" },
+  
   { id: 7, cat: "websites", title: "Swiss Golden Tours", desc: "Empresa de Turismo e Transfers em Zürich.", result: "+243% reservas online", color: "from-amber-500 to-orange-500", image: portfolioSwissGoldenTours, link: "https://swissgoldentours.com/" },
   { id: 8, cat: "websites", title: "Tô Pronta Pra Mim", desc: "Loja de Roupas Feminina.", result: "+318% vendas online", color: "from-rose-400 to-pink-500", image: portfolioToprontapramim, link: "https://toprontapramim.com/" },
   { id: 9, cat: "websites", title: "Astróloga Maria Luis", desc: "Astrologia, Tarôt e Espiritualidade.", result: "+274% consultas online", color: "from-teal-600 to-emerald-500", image: portfolioAstrologa, link: "https://astrologamarialuis.com/" },
@@ -93,11 +87,7 @@ const PROJECTS: Project[] = [
   { id: 23, cat: "websites", title: "Savana Construções", desc: "Remodelações e Construções.", result: "+276% pedidos de orçamento", color: "from-red-600 to-orange-600", image: portfolioSavana, link: "https://savanaconstrucoes.com/" },
   { id: 24, cat: "websites", title: "Pétalas Lisas", desc: "Empresa de Limpeza.", result: "+293% contactos online", color: "from-cyan-500 to-blue-500", image: portfolioPetalasLisas, link: "https://petalaslisas.com/" },
   { id: 25, cat: "websites", title: "Glamour Festivo", desc: "Roupas de Casamento.", result: "+342% vendas online", color: "from-indigo-500 to-violet-500", image: portfolioGlamourFestivo, link: "https://glamourfestivo.com/" },
-  { id: 26, cat: "websites", title: "Wilhelm Import", desc: "Importação e Exportação.", result: "+283% leads qualificados", color: "from-teal-500 to-cyan-500", image: portfolioWilhelmImport, link: "https://wilhelmimport.com/" },
   { id: 27, cat: "websites", title: "Naturadente", desc: "Odontologia.", result: "+317% consultas agendadas", color: "from-pink-500 to-rose-500", image: portfolioNaturadente, link: "https://naturadente.com/" },
-  { id: 28, cat: "websites", title: "Boutique Purple Fashion", desc: "Vestuário Feminino.", result: "+356% vendas online", color: "from-emerald-500 to-green-500", image: portfolioBoutiquePurple, link: "https://boutiquepurplefashion.com/" },
-  { id: 29, cat: "websites", title: "Perfumaria Cosmética", desc: "Perfumes e Cosméticos.", result: "+289% vendas online", color: "from-amber-500 to-orange-500", image: portfolioPerfumaria, link: "https://perfumariacosmetica.pt/" },
-  { id: 30, cat: "websites", title: "Liebe Zum Haus", desc: "Empresa de Limpeza.", result: "+306% contactos online", color: "from-blue-500 to-indigo-500", image: portfolioLiebeZumHaus, link: "https://liebezumhaus.com/" },
   { id: 31, cat: "websites", title: "Imperio Kiss", desc: "Clínica Odontológica.", result: "+324% consultas agendadas", color: "from-violet-500 to-purple-500", image: portfolioImperioKiss, link: "https://imperiokiss.com/" },
   { id: 32, cat: "websites", title: "Daylin Cabrera", desc: "Cabeleireira.", result: "+278% agendamentos online", color: "from-orange-500 to-red-500", image: portfolioDaylinCabrera, link: "https://daylincabrera.com/" },
   { id: 33, cat: "websites", title: "Paula Duarte Advogados", desc: "Advogacia.", result: "+303% consultas agendadas", color: "from-cyan-500 to-blue-500", image: portfolioPaulaDuarte, link: "https://pauladuarteadvogados.com/" },
@@ -110,11 +100,8 @@ const PROJECTS: Project[] = [
   { id: 40, cat: "websites", title: "Arte no Azulejo", desc: "Azulejos Artesanais feitos à mão.", result: "+278% vendas online", color: "from-fuchsia-500 to-pink-500", image: portfolioArteNoAzulejo, link: "https://artenoazulejo.com/" },
   { id: 41, cat: "websites", title: "Total Mudanças", desc: "Empresa de Mudanças.", result: "+294% pedidos de orçamento", color: "from-lime-500 to-green-500", image: portfolioTotalMudancas, link: "https://totalmudancas.com/" },
   { id: 42, cat: "websites", title: "Tikka Talk Restaurant", desc: "Restaurante Indiano.", result: "+312% reservas online", color: "from-violet-500 to-blue-500", image: portfolioTikkaTalk, link: "https://tikkatalkrestaurant.com/" },
-  { id: 43, cat: "websites", title: "Cabelo Premium", desc: "Produtos Capilares.", result: "+293% vendas online", color: "from-teal-500 to-emerald-500", image: portfolioCabeloPremium, link: "https://cabelopremium.com/" },
   { id: 44, cat: "websites", title: "Ingrid Suellen", desc: "Design de Sobrancelhas.", result: "+341% agendamentos online", color: "from-orange-500 to-amber-500", image: portfolioIngridSuellen, link: "https://ingridsuellen.com/" },
-  { id: 45, cat: "websites", title: "Técnica Eliane Wilhelm", desc: "Depilação.", result: "+308% agendamentos online", color: "from-cyan-500 to-blue-500", image: portfolioTecnicaEliane, link: "https://tecnicaelianewilhelm.com/" },
   { id: 46, cat: "websites", title: "Lavandaria Last Mountain", desc: "Lavandaria de Roupas.", result: "+276% pedidos online", color: "from-rose-500 to-pink-500", image: portfolioLastMountain, link: "https://lavandarialastmountain.com/" },
-  { id: 47, cat: "websites", title: "MRT Auto Spa", desc: "Lavagem de Automóveis.", result: "+323% reservas online", color: "from-emerald-500 to-teal-500", image: portfolioMrtAutoSpa, link: "https://mrtautospa.com/" },
 ];
 
 const PortfolioSection = () => {
