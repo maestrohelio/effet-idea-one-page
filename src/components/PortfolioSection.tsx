@@ -67,7 +67,7 @@ const PROJECTS: Project[] = [
   { id: 100, cat: "websites", title: "Atelier do Sim", desc: "Casamentos e Parcerias.", result: "+297% pedidos de orçamento", color: "from-rose-300 to-pink-400", image: portfolioAtelierDoSim, link: "https://atelierdosim.com" },
   { id: 101, cat: "websites", title: "Nexo TV", desc: "Streaming e TV.", result: "+412% visualizações", color: "from-orange-500 to-red-600", image: portfolioNexoTV, link: "https://nexotvst.com" },
   { id: 102, cat: "websites", title: "Transport JJ Europe", desc: "Transportes Internacionais.", result: "+286% pedidos de orçamento", color: "from-blue-600 to-yellow-500", image: portfolioTransportJJEurope, link: "https://transportjjeurope.com" },
-  { id: 1, cat: "websites", title: "Tacofrei", desc: "Loja online com design exclusivo.", result: "+197% vendas em 3 meses", color: "from-purple-600 to-blue-500", image: portfolioTacofrei, link: "https://tacofrei.com/" },
+  
   { id: 7, cat: "websites", title: "Swiss Golden Tours", desc: "Empresa de Turismo e Transfers em Zürich.", result: "+243% reservas online", color: "from-amber-500 to-orange-500", image: portfolioSwissGoldenTours, link: "https://swissgoldentours.com/" },
   { id: 8, cat: "websites", title: "Tô Pronta Pra Mim", desc: "Loja de Roupas Feminina.", result: "+318% vendas online", color: "from-rose-400 to-pink-500", image: portfolioToprontapramim, link: "https://toprontapramim.com/" },
   { id: 9, cat: "websites", title: "Astróloga Maria Luis", desc: "Astrologia, Tarôt e Espiritualidade.", result: "+274% consultas online", color: "from-teal-600 to-emerald-500", image: portfolioAstrologa, link: "https://astrologamarialuis.com/" },
