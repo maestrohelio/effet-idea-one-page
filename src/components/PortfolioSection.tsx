@@ -23,9 +23,6 @@ import portfolioPetalasLisas from "@/assets/portfolio-petalaslisas.png";
 import portfolioGlamourFestivo from "@/assets/portfolio-glamourfestivo.png";
 
 import portfolioNaturadente from "@/assets/portfolio-naturadente.png";
-import portfolioBoutiquePurple from "@/assets/portfolio-boutiquepurplefashion.png";
-import portfolioPerfumaria from "@/assets/portfolio-perfumariacosmetica.png";
-import portfolioLiebeZumHaus from "@/assets/portfolio-liebezumhaus.png";
 import portfolioImperioKiss from "@/assets/portfolio-imperiokiss.png";
 import portfolioDaylinCabrera from "@/assets/portfolio-daylincabrera.png";
 import portfolioPaulaDuarte from "@/assets/portfolio-pauladuarteadvogados.png";
