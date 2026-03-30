@@ -2,7 +2,6 @@ import { MessageCircle, ExternalLink } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { whatsappLink } from "@/lib/whatsapp";
 import SectionWrapper from "./SectionWrapper";
-import portfolioTacofrei from "@/assets/portfolio-tacofrei.png";
 import portfolioSwissGoldenTours from "@/assets/portfolio-swissgoldentours.png";
 import portfolioToprontapramim from "@/assets/portfolio-toprontapramim.png";
 import portfolioAstrologa from "@/assets/portfolio-astrologamarialuis.png";
