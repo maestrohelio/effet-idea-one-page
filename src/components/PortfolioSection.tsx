@@ -35,7 +35,7 @@ import portfolioLemosBeauty from "@/assets/portfolio-lemosbeautyhome.png";
 import portfolioArteNoAzulejo from "@/assets/portfolio-artenoazulejo.png";
 import portfolioTotalMudancas from "@/assets/portfolio-totalmudancas.png";
 import portfolioTikkaTalk from "@/assets/portfolio-tikkatalk.png";
-import portfolioCabeloPremium from "@/assets/portfolio-cabelopremium.png";
+
 import portfolioIngridSuellen from "@/assets/portfolio-ingridsuellen.png";
 import portfolioTecnicaEliane from "@/assets/portfolio-tecnicaelianewilhelm.png";
 import portfolioLastMountain from "@/assets/portfolio-lavandarialastmountain.png";
