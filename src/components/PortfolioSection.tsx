@@ -47,6 +47,7 @@ import portfolioCRInvestimentos from "@/assets/portfolio-crinvestimentos.png";
 import portfolioTotalMudancas2 from "@/assets/portfolio-totalmudancas2.png";
 
 import portfolioDoxaTours from "@/assets/portfolio-doxatours.png";
+import portfolioDevotionSkin from "@/assets/portfolio-devotionskin.webp";
 
 interface Project {
   id: number;
